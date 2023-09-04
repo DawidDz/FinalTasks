@@ -16,6 +16,7 @@ import java.time.Duration;
 import java.util.List;
 
 public class MyStorePageObjectSteps {
+
     private WebDriver driver;
     private MyStoreMyAccountPage myAddressesPage;
 

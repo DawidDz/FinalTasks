@@ -9,7 +9,9 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 
 public class MyStoreNewAddressPage {
+
     private final WebDriver driver;
+
     @FindBy(id = "field-alias")
     private WebElement aliasInput;
 

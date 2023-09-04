@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ShopOrdersDetailsPage {
-    private final WebDriver driver;
 
+    private final WebDriver driver;
 
     @FindBy(xpath = "//span[normalize-space()='Dawid Dziedzic']")
     private WebElement accountBtn;

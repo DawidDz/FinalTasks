@@ -16,7 +16,6 @@ import java.time.Duration;
 public class ShoppingSteps {
 
     private WebDriver driver;
-
     private ShopClothesWindowPage clothesWindowPage;
 
     @Given("I'm on shop login page")
