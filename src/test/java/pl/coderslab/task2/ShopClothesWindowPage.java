@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ShopClothesWindowPage {
+
     private final WebDriver driver;
 
     @FindBy(xpath = "//a[contains(text(),'Hummingbird printed sweater')]")

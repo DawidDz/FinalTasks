@@ -13,6 +13,7 @@ import pl.coderslab.task1.MyStoreLoginPage;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+
 public class ShoppingSteps {
 
     private WebDriver driver;
