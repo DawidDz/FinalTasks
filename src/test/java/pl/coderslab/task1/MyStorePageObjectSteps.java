@@ -39,6 +39,7 @@ public class MyStorePageObjectSteps {
         myAccountPage.goToMyAddressesPage();
         myAddressesPage = new MyStoreMyAccountPage(driver);
     }
+
     @When("I add new address")
     public void iAddNewAddress() {
         myAddressesPage.addNewAddress();
@@ -66,10 +67,12 @@ public class MyStorePageObjectSteps {
         Assertions.assertEquals("United Kingdom", country);
         Assertions.assertEquals("0501234567", phone);
     }
+
 //    @And("I remove the address")
 //    public void iRemoveTheAddress() {
 //        myAddressesPage.removeAddresses();
 //    }
+
     @And("I close the browser")
     public void iCloseTheBrowser() {
         driver.quit();

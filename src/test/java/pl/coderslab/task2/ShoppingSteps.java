@@ -14,7 +14,9 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 public class ShoppingSteps {
+
     private WebDriver driver;
+
     private ShopClothesWindowPage clothesWindowPage;
 
     @Given("I'm on shop login page")

@@ -38,6 +38,7 @@ public class MyStoreNewAddressPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     public void enterNewAddressData(String alias, String address, String city, String zip, String country, String phone) {
         aliasInput.clear();
         aliasInput.sendKeys(alias);
