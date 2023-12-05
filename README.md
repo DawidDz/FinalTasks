@@ -1,11 +1,13 @@
 # Test Automation Project
 Write two scripts that perform the following actions on this site https://prod-course.coderslab.com/index.php?controller=authentication&back=addresses
+
 First script:
 - will log in to this created user,
 - will enter by clicking on the Addresses tile after logging in (the address we should be at is: https://mystore-testlab.coderslab.pl/index.php?controller=addresses ),
 - clicks on + Create new address,
 - fill in the New address form - data should be taken from the Examples table in Gherkin (alias, address, city, zip/postal code, country, phone),
 - will check whether the data in the added address is correct.
+
 Second script:
 - logs in with the same user from task 1,
 - will choose Hummingbird Printed Sweater for purchase (additional option: check whether the discount on it is 20%),
