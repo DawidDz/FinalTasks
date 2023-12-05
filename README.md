@@ -1,4 +1,4 @@
-# Test Automation Project
+# Test Automation Project (My Store)
 Write two scripts that perform the following actions on this site https://prod-course.coderslab.com/index.php?controller=authentication&back=addresses
 
 First script:
